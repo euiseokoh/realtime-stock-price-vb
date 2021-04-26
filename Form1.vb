@@ -285,8 +285,6 @@ Public Class Form1
             '정보 업데이트
             MySqlDao.Add("")
             'Console.WriteLine(stocksearchnum.ToString + " : " + Portfolio.Count.ToString + " : " + CurrentPriceNum.ToString)
-            'Console.WriteLine("sql: " + "update geotogong.stocks set lastday_price = " + _potfolio.lastprice.ToString + ", current_rate = " + rate_current.ToString + ", current_price = " + _potfolio.price.ToString + ", modified_time = now() where code = " + _potfolio.ID.ToString)
-            'Console.WriteLine("하..")
 
             'dgvStockList.Rows.Add(stockcount, _potfolio.ID, _potfolio.name, String.Format("{0:N0}", CInt(_potfolio.lastprice)), String.Format("{0:N0}",
             'CInt(_potfolio.price)), rate_current.ToString, _potfolio.industry, _potfolio.scope)
